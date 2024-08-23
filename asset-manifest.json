@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/your-feed/static/css/main.c13274f0.css",
+    "main.js": "/your-feed/static/js/main.9587e0e9.js",
+    "static/media/among.png": "/your-feed/static/media/among.315e79db0faa2047d8b0.png",
+    "static/media/joystick.png": "/your-feed/static/media/joystick.0737a2b31073be3746e5.png",
+    "index.html": "/your-feed/index.html",
+    "main.c13274f0.css.map": "/your-feed/static/css/main.c13274f0.css.map",
+    "main.9587e0e9.js.map": "/your-feed/static/js/main.9587e0e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c13274f0.css",
+    "static/js/main.9587e0e9.js"
+  ]
+}
