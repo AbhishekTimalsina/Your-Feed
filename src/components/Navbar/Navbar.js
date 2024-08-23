@@ -1,4 +1,5 @@
 import React, { useContext, createContext, useState } from "react";
+import yourFeed from "../../assets/your-feed.png";
 import "./Navbar.css";
 import {
   FacebookLogo,
@@ -51,7 +52,7 @@ export const Navbar = () => {
     <header className={`header ${mode}`}>
       <nav className="nav">
         <div className="left-nav_container">
-          <FacebookLogo size="40px" color="#006cba" weight="fill" />
+          <img src={yourFeed} className="brand-logo" />{" "}
         </div>
         <div className="center-nav_container" onClick={clickHandler}>
           <span className="center-icon_container">

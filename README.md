@@ -1,24 +1,20 @@
-# Facebook clone with react js
+# YourFeed - Social media app build with react js
 
 ### (Building it as i am learning)
 
 #### Try It
+
 Email: example@gmail.com  
 Password: 123456
 
-## Features 
+## Features
 
 ✔️ Upload and Delete Post  
 ✔️ Relative Time  
 ✔️ Like Posts  
-✔️ Firestore Database    
+✔️ Firestore Database  
 ✔️ Firebase auth and firebase storage  
 ✔️ Upload Images  
-❌ Update Posts  
-❌ Responsive
+❌ Update Posts
 
 ## What i learned
-
-- React
-- React Router
-- Firebase, Firebase Authentication, Firebase storage

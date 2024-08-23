@@ -82,9 +82,7 @@ export const Login = () => {
         </form>
         {error && <div className="auth-error">{error}</div>}
         <div className={`auth-bottom ${requesting ? "disabled" : ""}`}>
-          <Link className="hello" to="/Signup">
-            Create new account
-          </Link>
+          <Link to="/Signup">Create new account</Link>
           <div>
             <span className="bi-line">Or</span>
             <button

@@ -22,16 +22,16 @@ export const Upload = ({ newPostHandler }) => {
             <User size="40px" color="white" weight="fill" />
           </span>
           <div className="content-input" onClick={changeModeEdit}>
-            What's in your mind?
+            Share your thoughts...
           </div>
         </div>
         <div className="upload-action_area">
           <ItemBar name="Live Video" type="upload" event={changeModeEdit}>
-            <VideoCamera size="24px" color="#f02849" weight="fill" />
+            <VideoCamera size="24px" color="white" weight="fill" />
           </ItemBar>
 
-          <ItemBar name="Photo/video" type="upload" event={changeModeEdit}>
-            <Image size="24px" color="#45bd62" weight="fill" />
+          <ItemBar name="Upload Photo" type="upload" event={changeModeEdit}>
+            <Image size="24px" color="red" weight="fill" />
           </ItemBar>
         </div>
       </div>

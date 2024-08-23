@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { User, DotsThreeOutline, X, ThumbsUp, Chat } from "phosphor-react";
 import { useAuth } from "../../context/AuthProvider.js";
 import { dateConverter } from "../../helper/helper.js";
-import { ModeContext } from "../../layouts/RootLayout.js";
 import { getDoc, doc } from "firebase/firestore";
 
 import { db } from "../../config/firebase.js";
@@ -21,7 +20,6 @@ export const PostItem = function ({
   authorId,
 }) {
   const { currentUser } = useAuth();
-  const [mode, setMode] = useContext(ModeContext);
   const [isLiked, setIsLiked] = useState(false);
   const [taskType, setTaskType] = useState("");
   const [postImage, setPostImage] = useState(null);

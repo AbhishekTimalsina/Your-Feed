@@ -7,7 +7,6 @@ import {
   User,
 } from "phosphor-react";
 import { ItemBar } from "../ItemBar";
-import image from "../../assets/among.png";
 
 export const FriendList = () => {
   let friends = [];

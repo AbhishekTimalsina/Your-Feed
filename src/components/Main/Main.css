@@ -9,7 +9,7 @@
 
 .main .container {
   background-color: #242526;
-  padding: 12px 16px 10px;
+  padding: 12px 0px;
   border-radius: 8px;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   gap: 10px;
   border-bottom: 1px solid #ffffff1a;
-  padding-bottom: 12px;
+  padding: 0px 8px 12px;
 }
 .content-input {
   border: none;
@@ -65,7 +65,7 @@
 
 .post-container {
   width: 100%;
-
+  max-width: 95vw;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -75,6 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 16px;
 }
 .post-top_left {
   text-decoration: none;
@@ -112,6 +113,7 @@
 .post-text {
   color: #e4e6eb;
   font-size: 15px;
+  padding: 0px 16px;
 }
 
 .interaction-container {
@@ -143,7 +145,7 @@
 }
 .post-image {
   background-clip: padding-box;
-  width: 500px;
+  width: 100%;
   align-self: center;
   aspect-ratio: 2/4;
   height: auto;

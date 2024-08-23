@@ -17,10 +17,10 @@ export const ShortCutBar = () => {
       </ItemBar>
 
       <ItemBar name="Among Us">
-        <img src={among} style={{ height: "32px" }} />
+        <img src={among} style={{ height: "32px" }} alt="shortcut-icons" />
       </ItemBar>
       <ItemBar name="Game">
-        <img src={game} style={{ height: "32px" }} />
+        <img src={game} style={{ height: "32px" }} alt="shortcut-icons" />
       </ItemBar>
       <ItemBar name="Something" />
     </aside>

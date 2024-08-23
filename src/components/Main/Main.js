@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Main.css";
 import { Upload } from "./Upload.js";
 import { Post } from "./Post.js";
@@ -18,7 +18,6 @@ import {
   getDoc,
   setDoc,
   serverTimestamp,
-  getDocs,
 } from "firebase/firestore";
 
 export const Main = () => {
