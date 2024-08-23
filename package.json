@@ -1,6 +1,6 @@
 {
   "homepage": "https://AbhishekTimalsina.github.io/your-feed",
-  "name": "facebook",
+  "name": "yourfeed",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
