@@ -16,5 +16,3 @@ Password: 123456
 ✔️ Firebase auth and firebase storage  
 ✔️ Upload Images  
 ❌ Update Posts
-
-## What i learned
